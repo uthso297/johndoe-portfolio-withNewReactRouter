@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col md:flex-row justify-between items-center p-10 bg-white shadow-md mt-[900px]">
+        <footer className="flex flex-col md:flex-row justify-between items-center p-10 bg-white shadow-md ">
             <div className="text-center md:text-left">
                 <div className="flex justify-center md:justify-start items-center space-x-2">
                     <img src="https://t4.ftcdn.net/jpg/03/15/16/99/360_F_315169998_zq1ns5PGqeG6T0acJAimrcKUYiW4pGHf.jpg" alt="Logo" className="h-32 w-32" />
