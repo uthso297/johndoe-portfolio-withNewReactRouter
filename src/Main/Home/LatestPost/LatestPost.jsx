@@ -12,7 +12,7 @@ const LatestPost = () => {
 
     return (
         <>
-            <div className="max-w-5xl mt-[850px] flex">
+            <div className="max-w-5xl mt-[1250px] flex">
                 <div className="flex flex-col justify-center">
                     <h1 className="text-center text-xl font-bold">Latest Post</h1>
                     <div className="flex items-center justify-center"><p className="w-2 h-2 rounded-full bg-purple-900"></p></div>

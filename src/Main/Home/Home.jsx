@@ -1,4 +1,5 @@
 import Footer from "../Shared/Footer";
+import Client from "./Client/Client";
 import Cover from "./Cover/Cover";
 import Experience from "./Experience/Experience";
 import Gallery from "./Gallery/Gallery";
@@ -12,6 +13,7 @@ const Home = () => {
             <Experience></Experience>
             <Services></Services>
             <Gallery></Gallery>
+            <Client></Client>
             <LatestPost></LatestPost>
             <Footer></Footer>
         </div>
