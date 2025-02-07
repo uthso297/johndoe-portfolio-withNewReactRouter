@@ -1,5 +1,9 @@
-import { FaAward, FaCamera, FaClock, FaFilm, FaHeart, FaHtml5, FaIcons, FaSearch, FaYoutube } from "react-icons/fa";
+import { FaCamera, FaClock, FaHeart, FaHtml5, FaIcons, FaSearch, } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
+import john from '../../../assets/john.png'
+import award from '../../../assets/awards.png'
+import subscriber from '../../../assets/subscriber.png'
+import footage from '../../../assets/footage.png'
 
 const Experience = () => {
 
@@ -7,25 +11,23 @@ const Experience = () => {
         <>
             <div className="flex justify-around ">
                 <div className="flex flex-col items-center justify-center text-[#D6BD96]">
-                    <i className="text-5xl"> <FaAward></FaAward> </i>
-                    <p className="text-sm">Special Mention</p>
-                    <p className="text-xl">AWARDS</p>
+                    {/* <i className="text-5xl"> <FaAward></FaAward> </i> */}
+                    <img className="w-36 h-36" src={award} alt="" />
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-[#D6BD96]">
-                    <i className="text-5xl"> <FaYoutube></FaYoutube> </i>
-                    <p className="text-sm">100k Videos</p>
-                    <p className="text-xl">SUBSCRIBER</p>
+                    <img className="w-36 h-36" src={subscriber} alt="" />
+
                 </div>
 
                 <div className="flex flex-col items-center justify-center text-[#D6BD96]">
-                    <i className="text-5xl"> <FaFilm></FaFilm> </i>
-                    <p className="text-sm">Biggest Filmography</p>
-                    <p className="text-xl">FOOTAGE</p>
+                    <img className="w-36 h-36" src={footage} alt="" />
+
                 </div>
 
                 <div className="bg-[#8669ce] w-72 h-80 flex items-end justify-center rounded-lg -mt-10 z-10 relative">
-                    <img className="w-60 h-60 rounded-lg" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="profile-photo" />
+                    {/* <img className="w-60 h-60 rounded-lg bg-amber-700" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="profile-photo" /> */}
+                    <img className="w-60 h-60 rounded-lg" src={john} alt="profile-photo" />
                     <div className="w-64 h-80 -bottom-10 border-2 border-purple-800 absolute rounded-lg">
                         <div className="w-0.5 h-16 bg-purple-800 absolute top-full right-1/2">
                             <div className="w-[70vw] h-0.5 absolute right-0 top-full bg-purple-800">
@@ -39,7 +41,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="mt-40 ml-[1.10rem] flex items-start gap-96">
+            <div className="mt-40 ml-[1.85rem] flex items-start gap-96">
 
                 <div>
                     <h1 className="font-bold text-xl">WORK EXPERIENCE</h1>
@@ -105,28 +107,37 @@ const Experience = () => {
                                 <FaSearch></FaSearch>
                                 <p className="text-lg font-bold">UI Interface Design</p>
                             </div>
-                            <input type="range" min={0} max="100" value="90" className="range-primary" />
+                            <div className="bg-gray-400 rounded-lg"><div className="bg-gradient-to-r from-[#9c27b0] to-[#651fff] w-[85%] h-2 rounded-lg"></div></div>
                         </ul>
                         <ul>
                             <div className="flex items-center gap-2">
                                 <FaIcons></FaIcons>
                                 <p className="text-lg font-bold">Icon Design</p>
                             </div>
-                            <input type="range" min={0} max="100" value="70" className="range-primary" />
+                            <div className="bg-gray-400 rounded-lg"><div className="bg-gradient-to-r from-[#9c27b0] to-[#651fff] w-[50%] h-2 rounded-lg"></div></div>
                         </ul>
+
                         <ul>
                             <div className="flex items-center gap-2">
                                 <FaHtml5></FaHtml5>
                                 <p className="text-lg font-bold">HTML Prototyping</p>
                             </div>
-                            <input type="range" min={0} max="100" value="60" className="range-primary" />
+                            {/* <input type="range" min={0} max="100" value="60" className="range-primary bg-gradient-to-r from-[#9c27b0] to-[#651fff]" /> */}
+                            <div className="bg-gray-400 rounded-lg"><div className="bg-gradient-to-r from-[#9c27b0] to-[#651fff] w-[70%] h-2 rounded-lg"></div></div>
+                        </ul>
+                        <ul>
+                            <div className="flex items-center gap-2">
+                                <FaCamera></FaCamera>
+                                <p className="text-lg font-bold">Photo Editing</p>
+                            </div>
+                            <div className="bg-gray-400 rounded-lg"><div className="bg-gradient-to-r from-[#9c27b0] to-[#651fff] w-[90%] h-2 rounded-lg"></div></div>
                         </ul>
                         <ul>
                             <div className="flex items-center gap-2">
                                 <FaCamera></FaCamera>
                                 <p className="text-lg font-bold">Graphic Illustration</p>
                             </div>
-                            <input type="range" min={0} max="100" value="80" className="range-primary" />
+                            <div className="bg-gray-400 rounded-lg"><div className="bg-gradient-to-r from-[#9c27b0] to-[#651fff] w-[60%] h-2 rounded-lg"></div></div>
                         </ul>
                     </div>
                 </div>

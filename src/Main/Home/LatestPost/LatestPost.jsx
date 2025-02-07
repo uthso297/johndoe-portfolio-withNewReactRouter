@@ -12,15 +12,15 @@ const LatestPost = () => {
 
     return (
         <>
-            <div className="max-w-5xl mt-[1250px] flex">
-                <div className="flex flex-col justify-center">
+            <div className="max-w-5xl mt-[1500px] flex">
+                <div className="flex flex-col justify-center -mr-10">
                     <h1 className="text-center text-xl font-bold">Latest Post</h1>
                     <div className="flex items-center justify-center"><p className="w-2 h-2 rounded-full bg-purple-900"></p></div>
 
                     <p className="opacity-70 mt-5">Lorem ipsum dolor sit amet at <a className="text-purple-900" href="">www.abcd.com</a> </p>
                 </div>
 
-                <div ref={sliderRef} className="keen-slider">
+                <div ref={sliderRef} className="keen-slider -ml-20">
                     <div className="keen-slider__slide number-slide1">
                         <div className="card bg-base-100 w-96 shadow-sm h-96">
                             <figure>

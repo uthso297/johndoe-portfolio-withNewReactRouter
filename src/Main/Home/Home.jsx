@@ -8,7 +8,7 @@ import Services from "./Services/Services";
 
 const Home = () => {
     return (
-        <div>
+        <div className="lato-regular">
             <Cover></Cover>
             <Experience></Experience>
             <Services></Services>

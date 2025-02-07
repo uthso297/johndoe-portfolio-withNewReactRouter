@@ -4,13 +4,12 @@ import { FaHome } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 import { PiDotsNineBold } from "react-icons/pi";
 import { TbMessages } from "react-icons/tb";
+import logo from '../../assets/logo.png'
 
 const Sidebar = () => {
     return (
         <div className="space-y-4">
-            <p className="bg-[#5d1ded] mx-auto text-6xl text-white rounded-2xl flex justify-center items-center w-[60px] h-[60px]">
-                J
-            </p>
+            <img className="w-16 h-16 mx-auto" src={logo} alt="" />
             <div className="flex flex-col items-center bg-[#D1C4E9] h-[396px] w-[80px] rounded-2xl justify-around text-2xl">
                 <svg width="32" height="32">
                     <defs>

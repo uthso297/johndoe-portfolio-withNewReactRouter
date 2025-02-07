@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
 
             <div className="mt-6 md:mt-0">
-                <h3 className="text-2xl font-bold">Contact <span className="text-purple-600">Me.</span></h3>
+                <h3 className="text-2xl font-bold">Contact <span className="text-purple-600">Me</span></h3>
                 <form className="mt-4 space-y-4">
                     <input type="text" placeholder="What is your name? *" className="w-full border-b-2 p-2 outline-none" />
                     <input type="email" placeholder="What is your email? *" className="w-full border-b-2 p-2 outline-none" />
